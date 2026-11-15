@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jagat Saji</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Navbar -->
+    <nav>
+        <div class="wrapper">
+            <div class="logo">
+                <a href="#">JagatSaji</a>
+            </div>
+            <div class="menu">
+                <ul>
+                    <li><a href="#home">Beranda</a></li>
+                    <li><a href="#katalog">Menu</a></li>
+                    <li><a href="#rekanan">Rakanan</a></li>
+                    <li><a href="#partners" style="margin-right: 100px;">Hubungi Kami</a></li>
+                    <li><img src="scc.png" style="width: 20px; height: auto; margin-right: 10px;"></li>
+                    <li><img src="akun.png" style="width: 20px; height: auto; margin-right: 10px;"></li>
+                    <li><img src="buy.png" style="width: 20px; height: auto; margin-right: 30px;"></li>
+                    <li><a href="#" class="order">Pesan Disini</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Section Banner -->
+    <section id="home">
+        <div class="wrapper">
+            <div class="kolom">
+                <h2 style="color: rgba(247, 135, 37, 0.757);">Sajian Masakan Indonesia</h2>
+                <p class="deskripsi">
+                    Nikmati kelezatan resep warisan leluhur yang diolah dari bumbu rempah pilihan. 
+                    Dari Sabang sampai Merauke, kami menghadirkan kehangatan tradisi Indonesia langsung ke meja makan Anda. 
+                    Jelajah Rasa Kuliner Nusantara dengan keaslian rempah, kesegaran bahan, dan kehangatan tradisi dalam setiap sajian. 
+                    Pesan sekarang dan nikmati kelezatan masakan khas Indonesia!
+                </p>
+                <p><a href="#" class="reservasi">Pesan sekarang</a></p>
+            </div>
+            <img src="nusantara.avif" class="gambar">
+        </div>
+    </section>
+
+    <section class="services" id="services">
+    <div class="container">
+        <div class="section-title">
+            <h2 style="color: rgba(237, 122, 31, 0.737);">Pilihan Menu</h2>
+        </div>
+        <div class="services-grid">
+            <div class="service-card">
+                <img src="nusantara.jpg" style="width: 100px; height: auto;">
+                <h3 style="color: #090300;">Nasi Kuning</h3>
+                <p>Memiliki cita rasa yang gurih dengan warna kuning cerah, membuat hidangan ini disukai banyak orang.</p>
+            </div>
+            <div class="service-card">
+                <img src="nasi pecel.jpg" style="width: 100px; height: auto;">
+                <h3 style="color: #090300;">Nasi Pecel</h3>
+                <p>Salah satu makanan khas Indonesia yang terdiri dari aneka sayuran yang disiram dengan saus atau bumbu kacang yang gurih, manis, dan lezat.</p>
+            </div>
+            <div class="service-card">
+                <img src="nasi uduk.jpg" style="width: 100px; height: auto;">
+                <h3 style="color: #090300;">Nasi Uduk</h3>
+                <p>Nasi uduk adalah salah satu kreasi olahan nasi khas Indonesia yang terbuat dari beras yang dimasak dengan santan serta berbagai rempah aromatik, sehingga menghasilkan nasi yang gurih, harum, dan pulen.</p>
+            </div>
+            <div class="service-card">
+                <img src="c:\sigha\Katalog\gado-gado.jpg" style="width: 100px; height: auto;">
+                <h3 style="color: #090300;">Gado-gado</h3>
+                <p>Salah satu masakan Indonesia yang terdiri dari aneka sayuran yang disiram dengan saus atau bumbu kacang yang gurih, manis,dan lezat.</p>
+            </div>
+            <div class="service-card">
+                <img src="daun jeruk.jpg" style="width: 100px; height: auto;">
+                <h3 style="color: #090300;">Nasi daun jeruk</h3>
+                <p>Nasi daun jeruk adalah salah satu olahan nasi khas Indonesia yang terkenal dengan keharuman aromanya yang segar dan cita rasanya yang gurihdan lezat.</p>
+            </div>
+            <div class="service-card">
+                <img src="Rujak.jpg" style="width: 100px; height: auto;">
+                <h3 style="color: #090300;">Rujak cingur</h3>
+                <p>Kuliner rujak cingur merupakan salah satu makanan trdisional khas jawa timur yang terkenal dengan perpaduan rasa gurih,pedas,manis dan sedikit asam .</p>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- section book a table -->
+<section class="book_section layout_padding">
+    <div class="container">
+        <div class="heading_container">
+            <h2>Book A Table</h2>
+        </div>
+        <div class="row">
+            <div class="col-md-6">
+                <div class="form_container">
+                    <form action="">
+                        <div>
+                            <input type="text" class="form-control" placeholder="Your Name" />
+                        </div>
+                        <div>
+                            <input type="text" class="form-control" placeholder="Phone Number" />
+                        </div>
+                        <div>
+                            <input type="email" class="form-control" placeholder="Your Email" />
+                        </div>
+                        <div>
+                            <select class="form-control nice-select wide">
+                                <option value="" disabled selected>How many persons?</option>
+                                <option value="1">1</option>
+                                <option value="2">2</option>
+                                <option value="3">3</option>
+                                <option value="4+">4+</option>
+                            </select>
+                        </div>
+                        <div>
+                            <input type="date" class="form-control" />
+                        </div>
+                        <div class="btn_box">
+                            <button type="submit">
+                                BOOK NOW
+                            </button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div class="map_container">
+                    <div id="googleMap">
+                        <!-- Ganti iframe di bawah dengan Google Maps embed yang sesuai -->
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3957.697855688562!2d112.4312!3d-7.4668!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zN8KwMjgnMDAuMiJTIDExMsKwMjUnNTIuMyJF!5e0!3m2!1sid!2sid!4v1600000000000!5m2!1sid!2sid"" width="100%" height="100%" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- KOMENTAR REKANAN -->
+<section class="komentar">
+    <h2>What Says Our Customers</h2>
+
+    <div class="komentar-container">
+
+        <div class="komentar-card">
+            <p>
+                Lorem ipsum dolor sit amet, consectetur
+                adipiscing elit, sed do eiusmod tempor
+                incididunt ut labore et dolore magna aliqua.
+                Ut enim ad minim veniam.
+            </p>
+
+            <h3>Pakde Kan</h3>
+            <span>Pakde Kan</span>
+        </div>
+
+        <div class="komentar-card">
+            <p>
+                Lorem ipsum dolor sit amet, consectetur
+                adipiscing elit, sed do eiusmod tempor
+                incididunt ut labore et dolore magna aliqua.
+                Ut enim ad minim veniam.
+            </p>
+
+            <h3>Mama Melon</h3>
+            <span>Mama Lemon</span>
+        </div>
+
+    </div>
+</section>
+
+<!-- section contact -->
+    <footer class="footer">
+        <div class="footer-container">
+            <!-- Contact Us -->
+            <div class="footer-column contact">
+                <h2>Contact Us</h2>
+                <div class="contact-item">
+                    <span>Location in skaneda</span>
+                </div>
+                <div class="contact-item">
+                    <span>WA 08111122234</span>
+                </div>
+                <div class="contact-item">
+                    <span>JagatSaji@gmail.com</span>
+                </div>
+            </div>
+
+            <div class="footer-column about">
+                <h2>JagatSaji</h2>
+                <div class="deskripsi-footer">
+                    <span>Kuliner SMK Negeri 2 Mojokerto</span>
+                </div>
+                <div class="social-icons">
+                    <a href="#"><img src="facebook-logo.webp" style="width: 30px;"></a>
+                    <a href="#"><img src="Twitter-Logo.png" style="width: 30px;"></a>
+                    <a href="#"><img src="instagram.jpg" style="width: 30px;"></a>
+                </div>
+            </div>
+
+            <!-- Opening Hours -->
+            <div class="footer-column about">
+                <h2>Opening Hours</h2>
+                <div class="deskripsi-footer">
+                    <span>Everyday</span>
+                    <span>10.00 Am - 18.00 Pm</span>
+                </div>
+            </div>
+        </div>
+        <div class="reserved">
+            <span>© 2026 All Rights Reserved By rpl_skaneda</span>
+        </div>
+    </footer>
+</body>
+</html>
